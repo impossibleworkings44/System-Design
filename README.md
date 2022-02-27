@@ -2,7 +2,7 @@
 _________________________
 
 ## Table of contents
-1. [Low Level Desgin Introduction](https://github.com/acinonyx2199/System-Design/blob/main/Low-Level-Design-Intro.md)
+1. [Low Level Design Introduction](https://github.com/acinonyx2199/System-Design/blob/main/Low-Level-Design-Intro.md)
 2. [Design Principles]()
 3. [Design-Pattern -1 ]()
 4. [Doubt clearing session]()
