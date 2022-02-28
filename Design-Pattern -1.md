@@ -48,8 +48,37 @@ eg:
 	// violates SRP as  change made by one can imact the other
 	}
 ```
-* O - Open-closed Principle.
-* L - Liskov Substitution Principle.
-* I - Interface Segregation Principle.
-* D - Dependency Inversion Principle
+*** O - Open-closed Principle.**
+* Open for enhancement/feature
+*  closed for code changes
+
+-- How do we fix this problem  ?
+```
+	//using interface
+		interface Animal(){
+			public feed();
+		}
+		
+		Dog implements Animal() {
+			public feed() {
+				System.out.println('Dog is fed');
+			}
+		}
+		
+		Class AnimalFeeder {
+			public void feedAnimal(Animal a) {
+				a.feed();
+			}
+		}
+		//here we dont need to make code changes to AnimalFeeder classs each time
+```
+
+
+*** L - Liskov Substitution Principle.****
+* c1 isA c2 is not enough for inheritance
+* if your child is not following your method , it is violating the Liskov principle,
+and hence inheritance should not be allowed else we get error
+
+
+
 
