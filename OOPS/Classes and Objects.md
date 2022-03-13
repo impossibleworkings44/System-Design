@@ -84,3 +84,7 @@ int main() {
 }
 
 ```
+* Object is an instance of a class (means eg of a class)
+* Instance Member Variable (also called as attributes, data members, fields, properties)
+* Instance Member Function (also called as methods , procedures, actions, operations)
+* Object's state should only change when we call some of it's function
