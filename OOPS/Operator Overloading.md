@@ -4,6 +4,7 @@
   * and it is preceded by operator keyword
 * We cannot  overload sizeof and ?: operator
 
+```
 //program to add  2 numbers
 
 #include<bits/stdc++.h>
@@ -38,4 +39,47 @@ int main() {
     c3 = c1+c2; //operator-overloading // or c3 = c1.operator+(c2);
     c3.show_data();
 }
+```
+example 2
 
+```
+//program to add  2 numbers
+
+#include<bits/stdc++.h>
+using namespace std;
+
+class Complex {
+    private: 
+    int a, b;
+    
+    public :
+    void set_data(int x, int y) {
+        a = x;
+        y = b;
+    }
+    
+    void show_data() {
+        cout<<"a = "<<a<<" b = "<<b<<endl;
+    }
+    
+    Integer operator++() {  //pre-increment
+        Integer i;
+        i.x = ++x;
+        return (i);
+    }
+    
+    Integer operator++(int) { //post-increment
+        Integer i;
+        i.x = x++;
+        return (i);
+    }
+};
+
+int main() {
+    Integer i1, i2;
+    i1.set_data(3);
+    i2 = ++i1;
+    i1.show_data();
+    i2.show_data();
+}
+```
