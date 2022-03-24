@@ -18,10 +18,10 @@ public:
 };
 
 int main() {
-	Phone my_iPhone_11;
-	Phone my_iPhone_xs;
-	Phone my_oneplus_7t;
-	 my_iPhone_11.brand = "Apple";
+Phone my_iPhone_11;
+Phone my_iPhone_xs;
+Phone my_oneplus_7t;
+my_iPhone_11.brand = "Apple";
 my_iPhone_11.model = "iPhone11";
 my_iPhone_11.ram = 4;
 my_iPhone_11.storage = 64;
@@ -53,12 +53,6 @@ cout << my_oneplus_7t.brand << " " <<  my_oneplus_7t.model << " " <<  my_oneplus
 my_oneplus_7t.dialCall("9732130450");
 my_oneplus_7t.receiveCall("9732130450");
 
-
-		
+return 0;
 	
-	
-	
-	
-	
-	return 0;
 }
