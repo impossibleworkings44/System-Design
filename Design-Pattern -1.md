@@ -32,7 +32,7 @@ public class Dog extends Animal() {
 #2. Solid Design Principle
 *** S - Single-responsiblity Principle.**
 * one class should do only 1 thing
-* Coupling
+* Coupling (relationship between objects, eg like bf&gf)
 		1) Tight Coupling
 		2) Loose Coupliing
 * adv : loosely coupled, 
