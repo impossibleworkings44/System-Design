@@ -52,6 +52,7 @@ eg:
 * Open for enhancement/feature
 *  closed for code changes
 
+-- open for new feature but closed for any tiny changes
 -- How do we fix this problem  ?
 ```
 	//using interface
